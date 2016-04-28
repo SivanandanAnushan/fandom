@@ -1,0 +1,14 @@
+
+.formblock
+{
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    border: 2px solid #AEAEAE;
+}
+
+.loginblock
+{
+    margin-top: 35%;
+}
