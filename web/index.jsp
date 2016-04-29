@@ -354,7 +354,7 @@
                     <div class="card-action">
                         <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
                         <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
+                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></span></button></a>
                     </div>
                 </div>
                 <div class="card-reveal">
