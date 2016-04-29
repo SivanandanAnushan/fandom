@@ -173,7 +173,7 @@
                         Clear Fields
                         <i class="material-icons right">clear_all</i>
                     </button>
-                    <button class="btn waves-effect waves-light" type="submit">
+                    <button class="btn waves-effect waves-light" type="submit" onclick="Materialize.toast('Data Submitted', 3000, 'rounded') ">
                         Submit
                         <i class="material-icons right">send</i>
                     </button>
