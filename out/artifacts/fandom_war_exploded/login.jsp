@@ -47,13 +47,26 @@
                         <input id="password" name="pw" type="password" class="validate">
                         <label for="password">Password</label>
                     </div>
-                    <div style="float: right">
+                    <div style="float: right;">
                         <button class="btn waves-effect waves-light" type="submit" name="lgin">Login
-                            <i class="material-icons right">send</i>
+                            <i class="material-icons right">assignment_ind</i>
                         </button>
                     </div>
                 </div>
             </form>
+
+            <div class="newuser">
+                <h1>New User?</h1>
+                <h3>Regester Now</h3>
+                <div style="float: right">
+                    <a href="signup.jsp">
+                        <button class="btn waves-effect waves-light" type="submit" name="#">Sign Up
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </a>
+
+                </div>
+            </div>
         </div>
         <div class="col-md-3"></div>
     </div>
