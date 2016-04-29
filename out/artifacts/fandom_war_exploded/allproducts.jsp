@@ -50,7 +50,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="index.jsp">Deals</a></li>
-                <li class="active"><a href="AllProducts.jsp">Browse All</a></li>
+                <li class="active"><a href="allproducts.jsp">Browse All</a></li>
                 <li><a href="#">Movies</a></li>
                 <li><a href="#">Games</a></li>
                 <li><a href="#">Accesories</a></li>
@@ -65,7 +65,7 @@
 </nav>
 <div class="col-sm-2"></div>
 <div class="col-sm-8">
-    <p>
+    <p></p>
     <div class="input-group">
 					<span class="input-group-btn">
 						<button class="btn btn-default" type="button">Category<span class="caret"></span></button>
@@ -76,7 +76,7 @@
 					</span>
 
     </div>
-    </p>
+
 </div>
 <div class="col-sm-2"></div>
 <br>
