@@ -91,6 +91,34 @@
     <div class="container-fluid">
         <div class="col-md-2">
 
+            <div class="w3-card-4">
+                <header class="w3-container w3-teal">
+                    <h1>Newly Arrivals</h1>
+                </header>
+                <div class="row">
+                    <div class="w3-container">
+                        <img id="img1" src="resourse/admin/MR%20(1).jpg" style="width: 250px;">
+                        <p>Lorem ipsum...</p>
+                        <button class="w3-btn">Button</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w3-container">
+                        <img src="resourse/admin/MR%20(1).jpg" style="width: 250px;">
+                        <p>Lorem ipsum...</p>
+                        <button class="w3-btn">Button</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="w3-container">
+                        <img src="resourse/admin/MR%20(1).jpg" style="width: 250px;">
+                        <p>Lorem ipsum...</p>
+                        <button class="w3-btn">Button</button>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
 
