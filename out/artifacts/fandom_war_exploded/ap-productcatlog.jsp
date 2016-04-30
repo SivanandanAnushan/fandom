@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/materialize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <%--<link rel="stylesheet" type="text/css" href="css/w3.css">--%>
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree Serif">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
 

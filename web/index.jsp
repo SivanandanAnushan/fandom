@@ -15,7 +15,9 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree Serif">
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bree Serif">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons" >
   <link rel="stylesheet" type="text/css" href="css/ninja-slider.css">
   <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
@@ -86,307 +88,474 @@
   </div>
 </nav>
 
-<div class="slider">
-  <div class="row">
-    <div class="col-sm-2"></div>
-    <div class="col-sm-8">
-      <div id="ninja-slider">
-        <div class="slider-inner">
-          <ul>
-            <li>
-              <a class="ns-img" href="resourse/sliderIMG/FCSlider1.png"></a>
-              <div class="caption">NEWEST MOVIES</div>
-            </li>
-            <li>
-              <a class="ns-img" href="resourse/sliderIMG/FCSlider2.png"></a>
-              <div class="caption">UP COMING TV SERIES</div>
-            </li>
-            <li>
-              <a class="ns-img" href="resourse/sliderIMG/FCSlider3.png"></a>
-              <div class="caption">ATTRACTIVE GAMES</div>
-            </li>
-            <li>
-              <a class="ns-img" href="resourse/sliderIMG/FCSlider4.png"></a>
-              <div class="caption">COMIC ART T-SHIRTS</div>
-            </li>
-            <li>
-              <a class="ns-img" href="resourse/sliderIMG/FCSlider5.png"></a>
-              <div class="caption">OTHER ACCESSORIES</div>
-            </li>
-          </ul>
-          <div class="navsWrapper">
-            <div id="ninja-slider-prev"></div>
-            <div id="ninja-slider-next"></div>
-          </div>
+    <div class="container-fluid">
+        <div class="col-md-2">
+
+
         </div>
-      </div>
+
+        <div class="col-md-8">
+            <div class="container-fluid">
+                <div class="slider">
+                    <div class="row">
+                        <div id="ninja-slider">
+                            <div class="slider-inner">
+                                <ul>
+                                    <li>
+                                        <a class="ns-img" href="resourse/sliderIMG/FCSlider1.png"></a>
+                                        <div class="caption">NEWEST MOVIES</div>
+                                    </li>
+                                    <li>
+                                        <a class="ns-img" href="resourse/sliderIMG/FCSlider2.png"></a>
+                                        <div class="caption">UP COMING TV SERIES</div>
+                                    </li>
+                                    <li>
+                                        <a class="ns-img" href="resourse/sliderIMG/FCSlider3.png"></a>
+                                        <div class="caption">ATTRACTIVE GAMES</div>
+                                    </li>
+                                    <li>
+                                        <a class="ns-img" href="resourse/sliderIMG/FCSlider4.png"></a>
+                                        <div class="caption">COMIC ART T-SHIRTS</div>
+                                    </li>
+                                    <li>
+                                        <a class="ns-img" href="resourse/sliderIMG/FCSlider5.png"></a>
+                                        <div class="caption">OTHER ACCESSORIES</div>
+                                    </li>
+                                </ul>
+                                <div class="navsWrapper">
+                                    <div id="ninja-slider-prev"></div>
+                                    <div id="ninja-slider-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-fluid" style="margin-top: 300px">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>
+                                <div class="card-action">
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Special Offer 1<i class="material-icons right">close</i></span>
+                                <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>
+                                <div class="card-action">
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Special Offer 1<i class="material-icons right">close</i></span>
+                                <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>
+                                <div class="card-action">
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Special Offer 1<i class="material-icons right">close</i></span>
+                                <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>
+                                <div class="card-action">
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Special Offer 1<i class="material-icons right">close</i></span>
+                                <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>
+                                <div class="card-action">
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Special Offer 1<i class="material-icons right">close</i></span>
+                                <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>
+                                <div class="card-action">
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                                    <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Special Offer 1<i class="material-icons right">close</i></span>
+                                <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="w3-card-4">
+                <header class="w3-container w3-teal">
+                    <h1>Suggetions</h1>
+                </header>
+                <div class="row">
+                    <div class="w3-container">
+                        <img src="resourse/admin/MR%20(1).jpg" style="width: 250px;">
+                        <p>Lorem ipsum...</p>
+                        <button class="w3-btn">Button</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w3-container">
+                        <img src="resourse/admin/MR%20(1).jpg" style="width: 250px;">
+                        <p>Lorem ipsum...</p>
+                        <button class="w3-btn">Button</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="w3-container">
+                        <img src="resourse/admin/MR%20(1).jpg" style="width: 250px;">
+                        <p>Lorem ipsum...</p>
+                        <button class="w3-btn">Button</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     </div>
-    <div class="col-sm-2"></div>
-  </div>
-</div>
+
 
 <br><br>
 
-<div class="container">
-
-  <div class="row">
-
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>
-            <div class="card-action">
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-            </div>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Special Offer 1<i class="material-icons right">close</i></span>
-          <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Special Offer 2<i class="material-icons right">more_vert</i></span>
-            <div class="card-action">
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-            </div>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Special Offer 2<i class="material-icons right">close</i></span>
-          <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
-            <div class="card-action">
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-            </div>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
-          <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-<%--</div>--%>
-
-<%--<br>--%>
-
 <%--<div class="container">--%>
 
-  <div class="row">
+  <%--<div class="row">--%>
 
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-            <div class="card-action">
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-            </div>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
+    <%--<div class="col-sm-4">--%>
+      <%--<div class="card">--%>
+        <%--<div class="card-image waves-effect waves-block waves-light">--%>
+          <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+        <%--</div>--%>
+        <%--<div class="card-content">--%>
+          <%--<span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>--%>
+            <%--<div class="card-action">--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="card-reveal">--%>
+          <%--<span class="card-title grey-text text-darken-4">Special Offer 1<i class="material-icons right">close</i></span>--%>
+          <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+        <%--</div>--%>
+      <%--</div>--%>
+    <%--</div>--%>
 
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Special Offer 5<i class="material-icons right">more_vert</i></span>
-            <div class="card-action">
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-            </div>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Special Offer 5<i class="material-icons right">close</i></span>
-          <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
+    <%--<div class="col-sm-4">--%>
+      <%--<div class="card">--%>
+        <%--<div class="card-image waves-effect waves-block waves-light">--%>
+          <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+        <%--</div>--%>
+        <%--<div class="card-content">--%>
+          <%--<span class="card-title activator grey-text text-darken-4">Special Offer 2<i class="material-icons right">more_vert</i></span>--%>
+            <%--<div class="card-action">--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="card-reveal">--%>
+          <%--<span class="card-title grey-text text-darken-4">Special Offer 2<i class="material-icons right">close</i></span>--%>
+          <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+        <%--</div>--%>
+      <%--</div>--%>
+    <%--</div>--%>
 
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Special Offer 6<i class="material-icons right">more_vert</i></span>
-            <div class="card-action">
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-            </div>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Special Offer 6<i class="material-icons right">close</i></span>
-          <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    <%--<div class="col-sm-4">--%>
+      <%--<div class="card">--%>
+        <%--<div class="card-image waves-effect waves-block waves-light">--%>
+          <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+        <%--</div>--%>
+        <%--<div class="card-content">--%>
+          <%--<span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>--%>
+            <%--<div class="card-action">--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="card-reveal">--%>
+          <%--<span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>--%>
+          <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+        <%--</div>--%>
+      <%--</div>--%>
+    <%--</div>--%>
+  <%--</div>--%>
+<%--&lt;%&ndash;</div>&ndash;%&gt;--%>
 
-    <div class="row">
+<%--&lt;%&ndash;<br>&ndash;%&gt;--%>
 
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                    <div class="card-action">
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-                    </div>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-        </div>
+<%--&lt;%&ndash;<div class="container">&ndash;%&gt;--%>
 
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Special Offer 5<i class="material-icons right">more_vert</i></span>
-                    <div class="card-action">
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-                    </div>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Special Offer 5<i class="material-icons right">close</i></span>
-                    <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-        </div>
+  <%--<div class="row">--%>
 
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Special Offer 6<i class="material-icons right">more_vert</i></span>
-                    <div class="card-action">
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-                    </div>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Special Offer 6<i class="material-icons right">close</i></span>
-                    <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
+    <%--<div class="col-sm-4">--%>
+      <%--<div class="card">--%>
+        <%--<div class="card-image waves-effect waves-block waves-light">--%>
+          <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+        <%--</div>--%>
+        <%--<div class="card-content">--%>
+          <%--<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>--%>
+            <%--<div class="card-action">--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="card-reveal">--%>
+          <%--<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>--%>
+          <%--<p>Here is some more information about this product that is only revealed once clicked on.</p>--%>
+        <%--</div>--%>
+      <%--</div>--%>
+    <%--</div>--%>
 
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                    <div class="card-action">
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-                    </div>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-        </div>
+    <%--<div class="col-sm-4">--%>
+      <%--<div class="card">--%>
+        <%--<div class="card-image waves-effect waves-block waves-light">--%>
+          <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+        <%--</div>--%>
+        <%--<div class="card-content">--%>
+          <%--<span class="card-title activator grey-text text-darken-4">Special Offer 5<i class="material-icons right">more_vert</i></span>--%>
+            <%--<div class="card-action">--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="card-reveal">--%>
+          <%--<span class="card-title grey-text text-darken-4">Special Offer 5<i class="material-icons right">close</i></span>--%>
+          <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+        <%--</div>--%>
+      <%--</div>--%>
+    <%--</div>--%>
 
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Special Offer 5<i class="material-icons right">more_vert</i></span>
-                    <div class="card-action">
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></span></button></a>
-                    </div>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Special Offer 5<i class="material-icons right">close</i></span>
-                    <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-        </div>
+    <%--<div class="col-sm-4">--%>
+      <%--<div class="card">--%>
+        <%--<div class="card-image waves-effect waves-block waves-light">--%>
+          <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+        <%--</div>--%>
+        <%--<div class="card-content">--%>
+          <%--<span class="card-title activator grey-text text-darken-4">Special Offer 6<i class="material-icons right">more_vert</i></span>--%>
+            <%--<div class="card-action">--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="card-reveal">--%>
+          <%--<span class="card-title grey-text text-darken-4">Special Offer 6<i class="material-icons right">close</i></span>--%>
+          <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+        <%--</div>--%>
+      <%--</div>--%>
+    <%--</div>--%>
+  <%--</div>--%>
 
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Special Offer 6<i class="material-icons right">more_vert</i></span>
-                    <div class="card-action">
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
-                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>
-                    </div>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Special Offer 6<i class="material-icons right">close</i></span>
-                    <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<br>
-<br>
+    <%--<div class="row">--%>
+
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="card">--%>
+                <%--<div class="card-image waves-effect waves-block waves-light">--%>
+                    <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+                <%--</div>--%>
+                <%--<div class="card-content">--%>
+                    <%--<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>--%>
+                    <%--<div class="card-action">--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+                <%--<div class="card-reveal">--%>
+                    <%--<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>--%>
+                    <%--<p>Here is some more information about this product that is only revealed once clicked on.</p>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="card">--%>
+                <%--<div class="card-image waves-effect waves-block waves-light">--%>
+                    <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+                <%--</div>--%>
+                <%--<div class="card-content">--%>
+                    <%--<span class="card-title activator grey-text text-darken-4">Special Offer 5<i class="material-icons right">more_vert</i></span>--%>
+                    <%--<div class="card-action">--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+                <%--<div class="card-reveal">--%>
+                    <%--<span class="card-title grey-text text-darken-4">Special Offer 5<i class="material-icons right">close</i></span>--%>
+                    <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="card">--%>
+                <%--<div class="card-image waves-effect waves-block waves-light">--%>
+                    <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+                <%--</div>--%>
+                <%--<div class="card-content">--%>
+                    <%--<span class="card-title activator grey-text text-darken-4">Special Offer 6<i class="material-icons right">more_vert</i></span>--%>
+                    <%--<div class="card-action">--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+                <%--<div class="card-reveal">--%>
+                    <%--<span class="card-title grey-text text-darken-4">Special Offer 6<i class="material-icons right">close</i></span>--%>
+                    <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+    <%--<div class="row">--%>
+
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="card">--%>
+                <%--<div class="card-image waves-effect waves-block waves-light">--%>
+                    <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+                <%--</div>--%>
+                <%--<div class="card-content">--%>
+                    <%--<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>--%>
+                    <%--<div class="card-action">--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+                <%--<div class="card-reveal">--%>
+                    <%--<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>--%>
+                    <%--<p>Here is some more information about this product that is only revealed once clicked on.</p>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="card">--%>
+                <%--<div class="card-image waves-effect waves-block waves-light">--%>
+                    <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+                <%--</div>--%>
+                <%--<div class="card-content">--%>
+                    <%--<span class="card-title activator grey-text text-darken-4">Special Offer 5<i class="material-icons right">more_vert</i></span>--%>
+                    <%--<div class="card-action">--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></span></button></a>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+                <%--<div class="card-reveal">--%>
+                    <%--<span class="card-title grey-text text-darken-4">Special Offer 5<i class="material-icons right">close</i></span>--%>
+                    <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-sm-4">--%>
+            <%--<div class="card">--%>
+                <%--<div class="card-image waves-effect waves-block waves-light">--%>
+                    <%--<img class="activator" src="http://materializecss.com/images/sample-1.jpg">--%>
+                <%--</div>--%>
+                <%--<div class="card-content">--%>
+                    <%--<span class="card-title activator grey-text text-darken-4">Special Offer 6<i class="material-icons right">more_vert</i></span>--%>
+                    <%--<div class="card-action">--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>--%>
+                        <%--<a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></button></a>--%>
+                    <%--</div>--%>
+                <%--</div>--%>
+                <%--<div class="card-reveal">--%>
+                    <%--<span class="card-title grey-text text-darken-4">Special Offer 6<i class="material-icons right">close</i></span>--%>
+                    <%--<p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+<%--</div>--%>
+<%--<br>--%>
+<%--<br>--%>
 
 
 <footer class="container-fluid text-center">
