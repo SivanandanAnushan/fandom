@@ -5,5 +5,11 @@
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
     </data-source>
+    <data-source name="MySQL - fandow@localhost" uuid="35d68acb-4f53-4399-b531-94b929e3e8e9">
+      <secret-storage>memory</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>fandow.*</schema-pattern>
+      <default-schemas>fandow.*</default-schemas>
+    </data-source>
   </component>
 </project>

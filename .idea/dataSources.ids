@@ -439,4 +439,317 @@
       </foreign-key>
     </database-model>
   </data-source>
+  <data-source name="MySQL - fandow@localhost" uuid="35d68acb-4f53-4399-b531-94b929e3e8e9">
+    <database-info product="MySQL" version="5.7.12-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="fandow"/>
+      <table id="2" parent="1" name="admin_info"/>
+      <table id="3" parent="1" name="cart"/>
+      <table id="4" parent="1" name="catergory"/>
+      <table id="5" parent="1" name="cust_info"/>
+      <table id="6" parent="1" name="logindetails"/>
+      <table id="7" parent="1" name="order_details"/>
+      <table id="8" parent="1" name="product"/>
+      <table id="9" parent="1" name="product_order"/>
+      <table id="10" parent="1" name="review"/>
+      <table id="11" parent="1" name="wish_list"/>
+      <column id="12" parent="2" name="Reg_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="13" parent="2" name="Adm_Fn">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="14" parent="2" name="Adm_Ln">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="15" parent="2" name="Add1">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="16" parent="2" name="Add2">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="17" parent="2" name="City">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="18" parent="2" name="Pstl_Cd">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="19" parent="2" name="DOB">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="20" parent="2" name="Gender">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="21" parent="2" name="Img">
+        <mandatory>1</mandatory>
+        <data-type>longblob</data-type>
+      </column>
+      <column id="22" parent="2" name="Email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <key id="23" parent="2" name="PRIMARY">
+        <columns>Reg_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="24" parent="3" name="Cart_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="25" parent="3" name="P_Qntty">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="26" parent="3" name="P_Nm">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="27" parent="3" name="P_Price">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="28" parent="3" name="U_ID">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="29" parent="3" name="PRIMARY">
+        <columns>Cart_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="30" parent="4" name="Cat_ID">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="31" parent="4" name="Cat_Nm">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="32" parent="4" name="PRIMARY">
+        <columns>Cat_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="33" parent="5" name="Reg_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="34" parent="5" name="Cus_FN">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="35" parent="5" name="Cus_LN">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="36" parent="5" name="Add1">
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="37" parent="5" name="Add2">
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="38" parent="5" name="City">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="39" parent="5" name="Postal_Code">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="40" parent="5" name="DOB">
+        <data-type>date</data-type>
+      </column>
+      <column id="41" parent="5" name="Gender">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="42" parent="5" name="Img">
+        <data-type>longblob</data-type>
+      </column>
+      <column id="43" parent="5" name="Email">
+        <data-type>varchar(250)</data-type>
+      </column>
+      <column id="44" parent="5" name="Sub">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <key id="45" parent="5" name="PRIMARY">
+        <columns>Reg_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="46" parent="6" name="User_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="47" parent="6" name="Usr_Nm">
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="48" parent="6" name="Pword">
+        <mandatory>1</mandatory>
+        <data-type>varchar(12)</data-type>
+      </column>
+      <key id="49" parent="6" name="PRIMARY">
+        <columns>User_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="50" parent="7" name="Od_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(5)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="51" parent="7" name="P_Nm">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="52" parent="7" name="P_Price">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="53" parent="7" name="P_Qntty">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="54" parent="7" name="Odered_Date">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <key id="55" parent="7" name="PRIMARY">
+        <columns>Od_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="56" parent="8" name="P_ID">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="57" parent="8" name="P_Name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="58" parent="8" name="P_Price">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="59" parent="8" name="P_Qntty">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="60" parent="8" name="Img">
+        <mandatory>1</mandatory>
+        <data-type>longblob</data-type>
+      </column>
+      <column id="61" parent="8" name="P_Desc">
+        <mandatory>1</mandatory>
+        <data-type>longtext</data-type>
+      </column>
+      <column id="62" parent="8" name="Availabilty">
+        <mandatory>1</mandatory>
+        <data-type>bit(1)</data-type>
+      </column>
+      <column id="63" parent="8" name="P_add_date">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="64" parent="9" name="Order_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="65" parent="9" name="ODate">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="66" parent="9" name="shipped">
+        <mandatory>1</mandatory>
+        <data-type>bit(1)</data-type>
+      </column>
+      <column id="67" parent="9" name="Order_NO">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="68" parent="9" name="Tax">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="69" parent="9" name="Shipping_Cost">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="70" parent="9" name="Price">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="71" parent="9" name="Address">
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="72" parent="9" name="Address1">
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="73" parent="9" name="City">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="74" parent="9" name="Postal_Code">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <key id="75" parent="9" name="PRIMARY">
+        <columns>Order_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="76" parent="10" name="Review_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="77" parent="10" name="Review_date">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="78" parent="10" name="Review">
+        <data-type>mediumtext</data-type>
+      </column>
+      <column id="79" parent="10" name="Rating">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="80" parent="10" name="PRIMARY">
+        <columns>Review_ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="81" parent="11" name="WList_ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="82" parent="11" name="Product_Name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="83" parent="11" name="Product_Price">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="84" parent="11" name="Product_Quantity">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="85" parent="11" name="Wish_Date">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="86" parent="11" name="PRIMARY">
+        <columns>WList_ID</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
 </component>
