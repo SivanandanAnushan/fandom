@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3319504239">
-    <data-source source="LOCAL" name="MySQL - ECOM@localhost" uuid="49bcaca4-f93f-419d-822e-ad517da2b969">
-      <driver-ref>mysql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/ECOM</jdbc-url>
-      <driver-properties>
-        <property name="autoReconnect" value="true" />
-        <property name="zeroDateTimeBehavior" value="convertToNull" />
-        <property name="tinyInt1isBit" value="false" />
-        <property name="characterEncoding" value="utf8" />
-        <property name="characterSetResults" value="utf8" />
-        <property name="yearIsDateType" value="false" />
-      </driver-properties>
-    </data-source>
+  <component name="DataSourceManagerImpl" format="xml" hash="3771060381">
     <data-source source="LOCAL" name="MySQL - fandow@localhost" uuid="35d68acb-4f53-4399-b531-94b929e3e8e9">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>

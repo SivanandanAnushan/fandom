@@ -12,4 +12,13 @@
         <servlet-name>S_Logging</servlet-name>
         <url-pattern>/S_Logging</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>S_allproducts</servlet-name>
+        <servlet-class>main.S_allproduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>S_allproducts</servlet-name>
+        <url-pattern>/S_allproducts</url-pattern>
+    </servlet-mapping>
 </web-app>

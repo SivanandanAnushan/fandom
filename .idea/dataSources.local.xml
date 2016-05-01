@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - ECOM@localhost" uuid="49bcaca4-f93f-419d-822e-ad517da2b969">
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-    </data-source>
     <data-source name="MySQL - fandow@localhost" uuid="35d68acb-4f53-4399-b531-94b929e3e8e9">
-      <secret-storage>memory</secret-storage>
+      <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
       <schema-pattern>fandow.*</schema-pattern>
       <default-schemas>fandow.*</default-schemas>

@@ -1,4 +1,6 @@
-<%--
+
+<%@ page import="main.S_allproduct" %>
+<%@ page import="java.io.PrintWriter" %><%--
   Created by IntelliJ IDEA.
   User: asank
   Date: 4/4/2016
@@ -35,6 +37,9 @@
 </head>
 
 <body>
+
+
+
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -89,6 +94,13 @@
 
 <br>
 <br>
+<%
+    S_allproduct obj = new S_allproduct();
+    String P_ID = obj.getP_id();
+    String P_NM = obj.getP_nm();
+    String P_DC = obj.getP_dsc();
+    //PrintWriter q = response.getWriter();
+%>
 <div class="container">
     <div class="row">
         <div class="col-sm-4">
@@ -97,7 +109,7 @@
                     <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
                 </div>
                 <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Special Offer 5<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4"><%out.print(P_NM);%><i class="material-icons right">more_vert</i></span>
                     <div class="card-action">
                         <a href="productview.jsp"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
                         <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
@@ -105,8 +117,8 @@
                     </div>
                 </div>
                 <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Special Offer 5<i class="material-icons right">close</i></span>
-                    <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                    <span class="card-title grey-text text-darken-4"><%out.print(P_NM);%><i class="material-icons right">close</i></span>
+                    <p><%out.print(P_DC);%></p>
                 </div>
             </div>
         </div>
