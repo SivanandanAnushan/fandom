@@ -12,4 +12,50 @@
         <servlet-name>S_Logging</servlet-name>
         <url-pattern>/S_Logging</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InsertServlet</servlet-name>
+        <servlet-class>Servlet.InsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertServlet</servlet-name>
+        <url-pattern>/InsertServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DisplayServlet</servlet-name>
+        <servlet-class>Servlet.DisplayServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayServlet</servlet-name>
+        <url-pattern>/DisplayServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditServlet</servlet-name>
+        <servlet-class>Servlet.EditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditServlet</servlet-name>
+        <url-pattern>/EditServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>Servlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/DeleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ImgServlet</servlet-name>
+        <servlet-class>Servlet.ImgServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ImgServlet</servlet-name>
+        <url-pattern>/ImgServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
