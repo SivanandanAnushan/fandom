@@ -35,7 +35,7 @@
     <div class="container">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <form method="post" action="S_Logging" class="loginblock">
+            <form method="post" action="/S_Logging" class="loginblock">
                 <div>
                     <div class="input-field">
                         <i class="material-icons prefix">account_circle</i>

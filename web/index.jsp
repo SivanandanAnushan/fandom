@@ -73,13 +73,13 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.jsp">Deals</a></li>
-        <li><a href="${pageContext.request.contextPath}/S_allproducts">Browse All</a></li>
+        <li><a href="allproducts.jsp">Browse All</a></li>
         <li><a href="#">Movies</a></li>
         <li><a href="#">Games</a></li>
         <li><a href="#">Accesories</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.jsp"><span class="glyphicon glyphicon-user"></span> ${unbc}<label ${hdn}>Sign In/Sign Up</label></a></li>
+        <li><a href="login.jsp"><span class="glyphicon glyphicon-user"></span> Sign In/Sign Up</a></li>
         <li><a href="cart.jsp"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> Wishlist</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
@@ -166,7 +166,7 @@
                     <div class="col-sm-4">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="resourse/admin/">
+                                <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Special Offer 1<i class="material-icons right">more_vert</i></span>

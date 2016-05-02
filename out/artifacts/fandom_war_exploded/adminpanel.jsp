@@ -24,7 +24,7 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
 </head>
 <body>
-    <div class="container" style="margin-top: 10%;">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3">
                 <div class="card">
@@ -47,8 +47,8 @@
                         <img class="activator" src="resourse/admin/MT%20(2).jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Customers<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">Open Customers data</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">More...</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
@@ -62,8 +62,8 @@
                         <img class="activator" src="resourse/admin/MT%20(3).jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Special Offers<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">Open Special Offers</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">More...</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
@@ -77,8 +77,70 @@
                         <img class="activator" src="resourse/admin/MT%20(4).jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Slider<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">Slider</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">More...</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
+                        <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">More...</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
+                        <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">More...</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
+                        <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">More...</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
+                        <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">More...</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
@@ -88,5 +150,8 @@
             </div>
         </div>
     </div>
+
+
+
 </body>
 </html>
