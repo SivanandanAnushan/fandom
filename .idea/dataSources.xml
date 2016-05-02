@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3771060381">
-    <data-source source="LOCAL" name="MySQL - fandow@localhost" uuid="35d68acb-4f53-4399-b531-94b929e3e8e9">
+  <component name="DataSourceManagerImpl" format="xml" hash="504190956">
+    <data-source source="LOCAL" name="MySQL - fandom@localhost" uuid="d1dcfbcc-924d-426f-8c83-ff82402302d1">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/fandow</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/fandom</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

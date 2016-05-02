@@ -2,6 +2,7 @@ package Logging;
 
 import dbpack.C_dbcn;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -29,6 +30,7 @@ public class S_Logging extends HttpServlet {
         int dbid = 0;
         String dbun = "";
         String dbpw = "";
+        String hid;
 
         Connection con;
         PreparedStatement stmt;
@@ -41,7 +43,7 @@ public class S_Logging extends HttpServlet {
                 stmt = con.prepareStatement(qry);
                 rs = stmt.executeQuery();
                 while (rs.next()){
-                    dbid = rs.getInt("User_ID");
+                    dbid = rs.getInt("Reg_ID");
                     dbun = rs.getString("Usr_Nm");
                     dbpw = rs.getString("Pword");
                 }
@@ -56,29 +58,34 @@ public class S_Logging extends HttpServlet {
                 if(pw!=null){
                     if(un.equals(dbun)){
                         if(pw.equals(dbpw)){
+                            hid="hidden";
                             //session.setAttribute("user",dbun);
-                            response.sendRedirect("index.jsp");
-
+                            request.setAttribute("unbc",dbun);
+                            request.setAttribute("hdn",hid);
+                            RequestDispatcher dispatch = request.getRequestDispatcher("/index.jsp");
+                            if(dispatch!=null){
+                                dispatch.forward(request,response);
+                            }
                         }
                         else {
-                            out.println("<html>");
+
                             out.println("Wrong Password");
-                            out.println("</html>");
+
                         }
                     }else {
-                        out.println("<html>");
+
                         out.println("Wrong Username");
-                        out.println("</html>");
+
                     }
                 }else {
-                    out.println("<html>");
+
                     out.println("Type your Password");
-                    out.println("</html>");
+
                 }
             }else {
-                out.println("<html>");
+
                 out.println("Type Your Username");
-                out.println("</html>");
+
             }
         }else{
             out.println("Database Connection Fail");
@@ -86,6 +93,7 @@ public class S_Logging extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doPost(request,response);
+
+
     }
 }
