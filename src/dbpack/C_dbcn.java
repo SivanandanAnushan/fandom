@@ -6,7 +6,7 @@ import java.sql.*;
  */
 public class C_dbcn {
     public static Connection dbcn(){
-        String URL = "jdbc:mysql://localhost:3306/fandow";
+        String URL = "jdbc:mysql://localhost:3306/fandom";
         String DRIVER = "com.mysql.jdbc.Driver";
         String UN = "root";
         String PW = "root";
