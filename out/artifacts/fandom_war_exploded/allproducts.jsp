@@ -35,8 +35,6 @@
 </head>
 
 <body>
-
-
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -76,10 +74,10 @@
                     <option value="" data-icon="" class="left circle">books</option>
                 </select>
             </div>
-            <div class="input-field col-md-7">
-                <input id="search" type="text" class="validate">
-                <label for="search">Search</label>
-            </div>
+                <div class="input-field col-md-7">
+                    <input id="search" type="text" class="validate">
+                    <label for="search">Search</label>
+                </div>
 
             <div class="col-md-2">
                 <button class="waves-effect waves-teal btn-flat">Search<i class="material-icons right">send</i></button>
@@ -89,6 +87,7 @@
     </div>
 </div>
 
+<<<<<<< HEAD
 <br/>
 <br/>
 
@@ -129,16 +128,85 @@
                         <p>Sample Text Here.Here is some more information about this product that is only revealed once
                             clicked on.</p>
                     </div>
+=======
+<br>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Special Offer 5<i class="material-icons right">more_vert</i></span>
+                    <div class="card-action">
+                        <a href="productview.jsp"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+                    </div>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Special Offer 5<i class="material-icons right">close</i></span>
+                    <p>Sample Text Here.Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
             </div>
         </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Special Offer 3<i
+                            class="material-icons right">more_vert</i></span>
+                    <div class="card-action">
+                        <a href="productview.jsp"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+                    </div>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
+                    <p>Sample Text Here.Here is some more information about this product that is only revealed once
+                        clicked on.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://materializecss.com/images/sample-1.jpg">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Special Offer 3<i class="material-icons right">more_vert</i></span>
+                    <div class="card-action">
+                        <a href="productview.jsp"><button class="waves-effect waves-teal btn-flat"><i class="material-icons">info_outline</i></button></a>
+                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-bookmark"></span></button></a>
+                        <a href="#"><button class="waves-effect waves-teal btn-flat"><span class="glyphicon glyphicon-shopping-cart"></span></button></a>
+                    </div>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Special Offer 3<i class="material-icons right">close</i></span>
+                    <p>Sample Text Here.Here is some more information about this product that is only revealed once
+                        clicked on.</p>
+>>>>>>> 7e8394367435312ddc066d3c333ef78317e8ef87
+                </div>
+            </div>
+        </div>
+<<<<<<< HEAD
     <%--</forEach>--%>
 
+=======
+    </div>
+>>>>>>> 7e8394367435312ddc066d3c333ef78317e8ef87
 </div>
 
 
+
+
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
         $('select').material_select();
     });
 </script>
